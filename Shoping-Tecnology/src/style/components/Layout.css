@@ -1,0 +1,247 @@
+.Container{
+    height: 100vh;
+    display: grid;
+    grid-template: repeat(9, 11rem) / repeat(4, 1fr);
+    grid-row-gap: 1rem;
+}
+.Header-Icon{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding-inline-start: 1rem;
+    padding-block-start: .5rem;
+    border-bottom: 1px solid white;
+}
+.Nav-Header{
+    grid-column: 2 / 5;
+    grid-row: 1 / 2;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid white;
+}
+.Nav-Header ul{
+    margin-block-end: 1rem;
+}
+.Nav-Header li{
+    display: inline-block;
+    border: 1px solid rgb(196, 192, 192);
+    border-radius: .5rem;
+    margin: 0 1rem;
+    padding: .5rem;
+    list-style: none;
+}
+.Nav-Header a{
+    font-weight: 100;
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(196, 192, 192);
+}
+.Nav-Header li:hover{
+    background-color: rgba(204, 204, 204,.5);
+}
+.Header-Icon{
+    display: flex;
+    align-items: center;
+}
+.Header-Icon img{
+    width: 15rem;
+}
+.Serach-Header{
+    display: flex;
+    justify-content: center;
+    grid-row: 1 / 2;
+    grid-column: 3 / 5;
+}
+.Search{
+    margin-block-start: 1rem;
+    margin-inline-end: 5rem;
+    width: 50%;
+}
+.Search input{
+    position: relative;
+    width: 80%;
+    height: 3rem;
+    border-radius: .3rem;
+    border: none;
+    padding-inline-start: 2.5rem;
+    outline: none;
+}
+.fa-search{
+    position: absolute;
+    color: rgb(0, 0,254);
+    top: 1.9rem;
+    margin-inline-start: .5rem;
+    z-index: 1;
+    font-size: 1.5rem;
+}
+.Search button{
+    height: 3rem;
+    width: 6rem;
+    background-color: rgb(87, 87, 255);
+    border: none;
+    margin-inline-start: .1rem;
+    border-radius: .5rem;
+    color: white;
+    cursor: pointer;
+}
+.User-Info{
+    grid-column: 4 / 5;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.User-Info select{
+    width: 2rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.User-Info option{
+    width: 20rem;
+}
+.Date-Users img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-inline-end: 1rem;
+}
+.Header-Vertical{
+    width: 80%;
+    grid-row: 2 / 8;
+    grid-column: 1 / 2;
+}
+.Category h1{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+    background-color:  rgba(159, 122, 245,.5);
+    margin: 0 .5rem 0 .5rem;
+    border-radius: .3rem;
+}
+.Category li{
+    width: 90%;
+    margin: 1rem;
+    margin-block-end: 2rem;
+    border-bottom: 1px solid gray;
+    transform: translateY(.5rem);
+    transition: transform 3s;
+}
+.fas{
+   color: rgb(130, 189, 238);
+}
+.Category a{
+    margin-inline-start: .5rem;
+    color: rgb(196, 192, 192);
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-decoration: none;
+    
+}
+.Price h1{
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+  margin: 2rem .5rem 0 .5rem;
+  padding-inline-start: .5rem;
+  background-color: rgba(159, 122, 245,.5);
+  border-radius: .3rem;
+}
+.Price{
+    width: 100%;
+    margin-block-start: 5rem;
+    height: 25rem;
+}
+.Price form{
+    width: 20rem;
+    margin-block-start: 1rem;
+}
+.Price label{
+    font-weight: 300;
+    font-size: 2rem;
+    color: rgb(196, 192, 192);
+    margin-inline-start: 4rem;
+}
+.Price input{
+    margin-block-start: 1rem;
+}
+.Region h1{
+    color: white;
+    background-color: rgba(159, 122, 245,.5);
+    text-align: center;
+    font-weight: 300;
+    font-size: 3rem;
+    margin: 2rem .5rem 0 .5rem;
+}
+.Region select{
+    width: 15rem;
+    height: 3rem;
+    background-color: transparent;
+    margin-block-start: 2rem;
+    margin-inline-start: 4rem;
+    border-radius: .3rem;
+    border: 1px solid gray;
+    color: rgb(218, 216, 216);
+}
+.city{
+    margin-inline-start: 5rem;
+    width: 100%;
+}
+
+.Footer{
+    grid-row: 8 / 10;
+    grid-column: 1 / 5;
+    background-color: rgb(71, 71, 71);
+    display: flex;
+    justify-content: center;
+}
+.Footer-content{
+    display: inline-block;
+    width: 40rem;
+    height: 20rem;
+    margin: 2rem 5rem 0 5rem;
+}
+.Footer-content h1{
+    color: rgb(252, 128, 128);
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.Footer-content img{
+    width: 10rem;
+    margin-block-start: .5rem;
+}
+.Footer li{
+    width: 20rem;
+    height: 3rem;
+    padding-block-start: .5rem;
+    margin-block-start: 1rem;
+    margin-inline-start: 5rem;
+    list-style: none;
+}
+.Footer a:hover{
+    color: rgb(163, 157, 255);
+}
+.Footer a{
+    color: rgb(197, 247, 208);
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-decoration: none;
+}
+.Message-Autor{
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+   margin-inline-end: -45rem;
+}
+.Message{
+    padding: .5rem;
+    color: rgb(254, 254, 254);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.Message i{
+    color: red;
+    margin-inline-end: .5rem;
+
+}

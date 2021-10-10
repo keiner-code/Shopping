@@ -1,0 +1,103 @@
+.Section{
+    grid-row: 2 / 8;
+    grid-column: 2 / 4;
+    margin-inline-start: -7rem;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.Article{
+    display: inline-block;
+    width: 27rem;
+    height: 32rem;
+    transform: scale(.95);
+    border: 1px solid rgb(122, 122, 122);
+    transition: transform 5s;
+    border-radius: .5rem;
+}
+.Info-Article{
+    display: flex;
+    justify-content: center;
+}
+.Article img{
+    margin-inline-start: 1rem;
+    width: 90%;
+    height: 70%;
+}
+.Article a{
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.7rem;
+    text-decoration: none;
+    margin-block-start: .5rem;
+}
+.Article p{
+    font-weight: 300;
+    margin-block-start: 1rem;
+    color: white;
+    font-size: 1.4rem;
+    margin-inline-start: 1rem;
+}
+.Article button{
+    background-color: transparent;
+    color: white;
+    text-align: right;
+    border: none;
+}
+.Car-Article{
+    float: right;
+    margin-inline-end: .3rem;
+}
+.Car-Article i{
+    color: rgb(107, 144, 255);
+    margin-inline-end: .6rem;
+}
+.Aside{
+    grid-row: 2 / 8;
+    grid-column: 4 / 5;
+    overflow: scroll;
+}
+.Aside i{
+    font-size: 1.5rem;
+    margin-inline-start: 1rem;
+}
+.Best-Sellers{
+    width: 95%;
+    height: 45%;
+    margin: 1.1rem;
+    border: 1px solid rgb(97, 97, 97);
+    text-align: center;
+    border-radius: .5rem;
+}
+.Best-Sellers h1{
+    color: white;
+    margin-block-start: 1rem;
+    font-weight: 300;
+}
+.Best-Sellers img{
+    width: 55%;
+    height: 18rem;
+}
+.Best-Sellers i{
+    margin-block-start: .8rem;
+    margin-inline-start: .5rem;
+    color: rgb(107, 144, 255);
+    font-size: 2rem;
+}
+.Sellers-Title a{
+    font-weight: 300;
+    font-size: 2rem;
+    color: rgb(150, 150, 254);
+    text-decoration: none;
+    margin-inline-start: 1rem;
+}
+.Sellers-Info p{
+    color: rgb(218, 216, 216);
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: right;
+    margin-inline-end: 1rem;
+    margin-block-start: 3rem;
+}

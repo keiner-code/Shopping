@@ -1,0 +1,131 @@
+
+.section{ 
+    width: 95%;
+    grid-column: 3 / 4;
+    grid-row: 2 / 5;
+}
+.section h1{
+    color: white;
+}
+.login{
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+}
+.form h1{
+    color: white;
+    width: 85%;
+    font-size: 3rem;
+    font-weight: 300;
+    border-bottom: 1px solid rgb(161, 161, 161);
+}
+.form-item{
+    margin-block: 2rem;
+    padding-inline-end: 8rem;
+}
+.form-item label{
+    font-size: 1.7rem;
+    color: white;
+}
+.form-item input{
+    cursor: pointer;
+    background-color: gray;
+    outline: none;
+    width: 100%;
+    border-radius: .3rem;
+    border: none;
+    height: 3rem;
+    color: rgb(255, 255, 255);
+}
+.form-item input::placeholder{
+    color: white;
+}
+.form-item button{
+    background-color: rgb(100, 200, 50);
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.register button{
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(132, 132, 247);
+    border: none;
+    border-bottom: 1px solid rgb(132, 132, 247);
+    float: right;
+    margin-inline-end: 8rem;
+}
+.aside-home{
+   grid-column: 2 / 5;
+   grid-row: 5 / 8;
+   overflow: scroll;
+}
+.article-shoping{
+    float: left;
+    margin: 1.5rem;
+    width: 22%;
+    height: 90%;
+    border: 1px solid white;
+}
+.shoping-info{
+    grid-column: 3/5;
+    grid-row: 2 /5;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: .5rem;
+}
+.info-img {
+    width: 60%;
+    float: left;
+}
+.info-list{
+    width: 39%;
+    float: right;
+}
+.info-list li{
+    list-style: none;
+    margin-block-end: .5rem;
+    font-size: 1.7rem;
+}
+.info-list li a{
+    color: rgb(67, 119, 93);
+    text-decoration: none;
+}
+.title-shoping h1{
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.3rem;
+    }
+.img-shoping img{
+    width: 100%;
+    height: 19rem;
+}
+.shoping-details{
+    margin-inline-start: 1.5rem;
+}
+.shoping-details li{
+    list-style: none;
+    font-size: 1.5rem;
+    color: white;
+}
+.shoping-details strong{
+    color: rgb(207, 205, 205);
+    font-weight: 300;
+}
+.shoping-details button{
+    background-color: transparent;
+    border: none;
+    color: rgb(158, 173, 241);
+    border-bottom: 1px solid rgb(158, 173, 241);
+    float: right;
+    margin-inline-end: 1rem;
+    cursor: pointer;
+}
